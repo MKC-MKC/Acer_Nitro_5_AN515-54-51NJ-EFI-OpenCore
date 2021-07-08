@@ -112,14 +112,6 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string></string>
-				<key>Enabled</key>
-				<false/>
-				<key>Path</key>
-				<string>SSDT-PS2.aml</string>
-			</dict>
-			<dict>
-				<key>Comment</key>
 				<string>SSDT-GPI0.aml</string>
 				<key>Enabled</key>
 				<true/>
