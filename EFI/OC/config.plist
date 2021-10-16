@@ -74,7 +74,7 @@
 				<key>Comment</key>
 				<string>SSDT-FAN-MOD.aml</string>
 				<key>Enabled</key>
-				<true/>
+				<false/>
 				<key>Path</key>
 				<string>SSDT-FAN-MOD.aml</string>
 			</dict>
@@ -85,6 +85,14 @@
 				<true/>
 				<key>Path</key>
 				<string>SSDT-DMAC.aml</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>SSDT-NVIDIA.aml</string>
+				<key>Enabled</key>
+				<true/>
+				<key>Path</key>
+				<string>SSDT-NVIDIA.aml</string>
 			</dict>
 			<dict>
 				<key>Comment</key>
@@ -1531,7 +1539,7 @@
 			<key>EnablePassword</key>
 			<false/>
 			<key>ExposeSensitiveData</key>
-			<integer>6</integer>
+			<integer>14</integer>
 			<key>HaltLevel</key>
 			<integer>2147483648</integer>
 			<key>PasswordHash</key>
