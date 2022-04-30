@@ -120,7 +120,7 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string></string>
+				<string>Command on ALT</string>
 				<key>Enabled</key>
 				<false/>
 				<key>Path</key>
