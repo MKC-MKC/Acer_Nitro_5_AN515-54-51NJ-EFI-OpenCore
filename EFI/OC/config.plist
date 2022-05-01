@@ -983,13 +983,13 @@
 				<data>
 				</data>
 				<key>boot-args</key>
-				<string>-wegnoegpu</string>
+				<string>-wegnoegpu -v</string>
 				<key>csr-active-config</key>
 				<data>
 				AAAAAA==
 				</data>
 				<key>prev-lang:kbd</key>
-				<string>en-US:0</string>
+				<string>ru-RU:252</string>
 				<key>run-efi-updater</key>
 				<string>No</string>
 			</dict>
