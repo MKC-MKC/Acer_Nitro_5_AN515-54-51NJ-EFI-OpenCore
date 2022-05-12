@@ -10,7 +10,7 @@
 | RAM              | Micron 8ATF1G64HZ-3G2J1 Dual DDR4 SDRAM 2x8GB 3200 MHz     |
 | SSD              | Asgard AN256NVMe-M.2/80                                    |
 | Ethernet         | Realtek RTL8168/8111 PCI-E Gigabit Ethernet Adapter        |
-| WiFi / BT        | Intel® AX200NGW 160 MHz                                    |
+| WiFi / BT        | Broadcom BCM94360NG (native)                               |
 | Audio            | Realtek ALC255 [lid=31]                                    |
 | TouchPad         | Synaptic 7DB5                                              |
 | Display          | BOEhydis NV156FHM-N48 15.6" LCD (FHD)                      |
@@ -33,7 +33,7 @@
 4. Boot -- > Secure Boot -- > `Enabled` -> `Disabled`
 5. Main -- > Control+S -- > `Replace RST Premium with Optane` -> `AHCI`
 6. Main -- > Fast Boot -> `Disabled`
-7. Advanced: VTD+VTX = Enabled
+7. Advanced: VT-d+VT-x = Enabled
 6. Exit -> Exit Saving Changes
 
 
@@ -48,4 +48,4 @@
 6. Boot with USB drive
 7. Follow the installer instructions
 
-macOS Big Sur 11.6.1 (20G224) Perfect worked with this release
+macOS Big Sur 11.6.5 Perfectly worked with this OC release
