@@ -8,7 +8,7 @@
 		<array>
 			<dict>
 				<key>Comment</key>
-				<string>SSDT-AWAC-DISABLE.aml</string>
+				<string>Fixing System Clocks</string>
 				<key>Enabled</key>
 				<true/>
 				<key>Path</key>
@@ -16,7 +16,7 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>SSDT-PLUG.aml</string>
+				<string>Fixing Power Management</string>
 				<key>Enabled</key>
 				<true/>
 				<key>Path</key>
@@ -24,7 +24,7 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>SSDT-PMC.aml</string>
+				<string>Fixing NVRAM</string>
 				<key>Enabled</key>
 				<true/>
 				<key>Path</key>
@@ -32,7 +32,7 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>SSDT-PNLFCFL.aml</string>
+				<string>Fixing the display brightness adjustment from the keyboard</string>
 				<key>Enabled</key>
 				<true/>
 				<key>Path</key>
@@ -40,7 +40,7 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>SSDT-EC-USBX.aml</string>
+				<string>Fixing Embedded Controller</string>
 				<key>Enabled</key>
 				<true/>
 				<key>Path</key>
@@ -48,15 +48,7 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>SSDT-TPD0.aml</string>
-				<key>Enabled</key>
-				<true/>
-				<key>Path</key>
-				<string>SSDT-TPD0.aml</string>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>SSDT-SBUS-MCHC.aml</string>
+				<string>Fixing SMBus support</string>
 				<key>Enabled</key>
 				<true/>
 				<key>Path</key>
@@ -80,7 +72,15 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>SSDT-DMAC</string>
+				<string>Disable GPU NVIDIA 1650</string>
+				<key>Enabled</key>
+				<true/>
+				<key>Path</key>
+				<string>SSDT-NVIDIA.aml</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>ssdtdmac_and_ssdtmem2 - They add as virtual devices some Apple-only hardware</string>
 				<key>Enabled</key>
 				<true/>
 				<key>Path</key>
@@ -88,15 +88,7 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>SSDT-NVIDIA.aml</string>
-				<key>Enabled</key>
-				<true/>
-				<key>Path</key>
-				<string>SSDT-NVIDIA.aml</string>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>SSDT-MEM2</string>
+				<string>ssdtdmac_and_ssdtmem2 - They add as virtual devices some Apple-only hardware</string>
 				<key>Enabled</key>
 				<true/>
 				<key>Path</key>
@@ -106,13 +98,13 @@
 				<key>Comment</key>
 				<string></string>
 				<key>Enabled</key>
-				<true/>
+				<false/>
 				<key>Path</key>
 				<string>SSDT-2.aml</string>
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string></string>
+				<string>Trackpad?</string>
 				<key>Enabled</key>
 				<true/>
 				<key>Path</key>
@@ -120,15 +112,7 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>Command on ALT</string>
-				<key>Enabled</key>
-				<false/>
-				<key>Path</key>
-				<string>SSDT-PS2.aml</string>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string></string>
+				<string>Fixing Trackpads</string>
 				<key>Enabled</key>
 				<true/>
 				<key>Path</key>
@@ -136,15 +120,15 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string></string>
+				<string>touchpad</string>
 				<key>Enabled</key>
 				<true/>
 				<key>Path</key>
-				<string>SSDT-1.aml</string>
+				<string>SSDT-TPD0.aml</string>
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>SSDT-XSPI</string>
+				<string>CPU?</string>
 				<key>Enabled</key>
 				<true/>
 				<key>Path</key>
@@ -152,7 +136,7 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>SSDT-GPRW.aml</string>
+				<string>Instant Wake Patch</string>
 				<key>Enabled</key>
 				<true/>
 				<key>Path</key>
@@ -160,7 +144,7 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>SSDT-HPET.aml</string>
+				<string>Screen Freeze after waking 309842</string>
 				<key>Enabled</key>
 				<true/>
 				<key>Path</key>
