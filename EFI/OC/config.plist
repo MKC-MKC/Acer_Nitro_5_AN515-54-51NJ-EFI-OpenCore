@@ -32,7 +32,7 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>4. Fixing the display brightness adjustment from the keyboard</string>
+				<string>+4. Fixing the display brightness adjustment</string>
 				<key>Enabled</key>
 				<true/>
 				<key>Path</key>
@@ -40,7 +40,7 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>5. Fixing Embedded USB Misc Controller</string>
+				<string>+5. Fixing Embedded USB Misc Controller</string>
 				<key>Enabled</key>
 				<true/>
 				<key>Path</key>
@@ -72,7 +72,7 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>9. Disable GPU NVIDIA 1650</string>
+				<string>+9. Disable GPU NVIDIA 1650</string>
 				<key>Enabled</key>
 				<true/>
 				<key>Path</key>
@@ -104,23 +104,15 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>12. ???</string>
+				<string>?12. ??? Fixing hotkeys brightness on keyboard?</string>
 				<key>Enabled</key>
-				<false/>
+				<true/>
 				<key>Path</key>
 				<string>SSDT-1.aml</string>
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>13. Trackpad</string>
-				<key>Enabled</key>
-				<true/>
-				<key>Path</key>
-				<string>SSDT-I2C.aml</string>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>14. Command on ALT</string>
+				<string>13. Command on ALT</string>
 				<key>Enabled</key>
 				<false/>
 				<key>Path</key>
@@ -128,9 +120,17 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>15. Fixing Trackpad</string>
+				<string>+14. Trackpad</string>
 				<key>Enabled</key>
 				<true/>
+				<key>Path</key>
+				<string>SSDT-I2C.aml</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>15. Fixing Trackpad</string>
+				<key>Enabled</key>
+				<false/>
 				<key>Path</key>
 				<string>SSDT-GPI0.aml</string>
 			</dict>
@@ -168,7 +168,7 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>20. Fixing Bluetoth + Wi-Fi after sleep</string>
+				<string>+20. Fixing Bluetoth + Wi-Fi after sleep</string>
 				<key>Enabled</key>
 				<true/>
 				<key>Path</key>
