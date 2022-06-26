@@ -8,7 +8,7 @@
 		<array>
 			<dict>
 				<key>Comment</key>
-				<string>SSDT-AWAC-DISABLE.aml</string>
+				<string>1. Fixing System Clocks</string>
 				<key>Enabled</key>
 				<true/>
 				<key>Path</key>
@@ -16,7 +16,7 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>SSDT-PLUG.aml</string>
+				<string>2. Fixing Power Management</string>
 				<key>Enabled</key>
 				<true/>
 				<key>Path</key>
@@ -24,7 +24,7 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>SSDT-PMC.aml</string>
+				<string>3. Fixing NVRAM</string>
 				<key>Enabled</key>
 				<true/>
 				<key>Path</key>
@@ -32,7 +32,7 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>SSDT-PNLFCFL.aml</string>
+				<string>4. Fixing the display brightness adjustment from the keyboard</string>
 				<key>Enabled</key>
 				<true/>
 				<key>Path</key>
@@ -40,7 +40,7 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>SSDT-EC-USBX.aml</string>
+				<string>5. Fixing Embedded USB Misc Controller</string>
 				<key>Enabled</key>
 				<true/>
 				<key>Path</key>
@@ -48,15 +48,7 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>SSDT-TPD0.aml</string>
-				<key>Enabled</key>
-				<true/>
-				<key>Path</key>
-				<string>SSDT-TPD0.aml</string>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>SSDT-SBUS-MCHC.aml</string>
+				<string>6. Fixing SMBus support</string>
 				<key>Enabled</key>
 				<true/>
 				<key>Path</key>
@@ -64,7 +56,7 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>SSDT-WAK.aml</string>
+				<string>7. ???</string>
 				<key>Enabled</key>
 				<true/>
 				<key>Path</key>
@@ -72,7 +64,7 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>SSDT-FAN-MOD.aml</string>
+				<string>8. ???</string>
 				<key>Enabled</key>
 				<true/>
 				<key>Path</key>
@@ -80,7 +72,15 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>SSDT-DMAC</string>
+				<string>9. Disable GPU NVIDIA 1650</string>
+				<key>Enabled</key>
+				<true/>
+				<key>Path</key>
+				<string>SSDT-NVIDIA.aml</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>10. ??? - They add as virtual devices some Apple-only hardware</string>
 				<key>Enabled</key>
 				<true/>
 				<key>Path</key>
@@ -88,15 +88,7 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>SSDT-NVIDIA.aml</string>
-				<key>Enabled</key>
-				<true/>
-				<key>Path</key>
-				<string>SSDT-NVIDIA.aml</string>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>SSDT-MEM2</string>
+				<string>11. ??? - They add as virtual devices some Apple-only hardware</string>
 				<key>Enabled</key>
 				<true/>
 				<key>Path</key>
@@ -104,7 +96,7 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string></string>
+				<string>11. ???</string>
 				<key>Enabled</key>
 				<true/>
 				<key>Path</key>
@@ -112,31 +104,7 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string></string>
-				<key>Enabled</key>
-				<true/>
-				<key>Path</key>
-				<string>SSDT-I2C.aml</string>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>Command on ALT</string>
-				<key>Enabled</key>
-				<false/>
-				<key>Path</key>
-				<string>SSDT-PS2.aml</string>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string></string>
-				<key>Enabled</key>
-				<true/>
-				<key>Path</key>
-				<string>SSDT-GPI0.aml</string>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string></string>
+				<string>12. ???</string>
 				<key>Enabled</key>
 				<true/>
 				<key>Path</key>
@@ -144,7 +112,39 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>SSDT-XSPI</string>
+				<string>13. Trackpad?</string>
+				<key>Enabled</key>
+				<true/>
+				<key>Path</key>
+				<string>SSDT-I2C.aml</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>14. Command on ALT</string>
+				<key>Enabled</key>
+				<false/>
+				<key>Path</key>
+				<string>SSDT-PS2.aml</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>15. Fixing Trackpad</string>
+				<key>Enabled</key>
+				<true/>
+				<key>Path</key>
+				<string>SSDT-GPI0.aml</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>16. Trackpad</string>
+				<key>Enabled</key>
+				<true/>
+				<key>Path</key>
+				<string>SSDT-TPD0.aml</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>17. CPU?</string>
 				<key>Enabled</key>
 				<true/>
 				<key>Path</key>
@@ -152,7 +152,7 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>SSDT-GPRW.aml</string>
+				<string>18. Instant Wake Patch</string>
 				<key>Enabled</key>
 				<true/>
 				<key>Path</key>
@@ -160,7 +160,7 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>SSDT-HPET.aml</string>
+				<string>19. Screen Freeze after waking 309842</string>
 				<key>Enabled</key>
 				<true/>
 				<key>Path</key>
@@ -168,7 +168,7 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>SSDT-XOSI.aml</string>
+				<string>20. ???</string>
 				<key>Enabled</key>
 				<true/>
 				<key>Path</key>
