@@ -8,15 +8,15 @@
 		<array>
 			<dict>
 				<key>Comment</key>
-				<string>+1. Fixing System Clocks after Windows</string>
+				<string>1. Fixing RTC Memory for (8+ gens)</string>
 				<key>Enabled</key>
-				<false/>
+				<true/>
 				<key>Path</key>
 				<string>SSDT-AWAC-DISABLE.aml</string>
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>+2. Fixing Power Management</string>
+				<string>2. Fixing Intel Power Management</string>
 				<key>Enabled</key>
 				<true/>
 				<key>Path</key>
@@ -24,7 +24,7 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>+4. Fixing the display brightness adjustment</string>
+				<string>3. Fixing the display brightness adjustment</string>
 				<key>Enabled</key>
 				<true/>
 				<key>Path</key>
@@ -32,7 +32,7 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>+5. Fixing Embedded USB Misc Controller</string>
+				<string>4. Fixing Embedded USB Misc Controller</string>
 				<key>Enabled</key>
 				<true/>
 				<key>Path</key>
@@ -40,7 +40,7 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>+9. Disable GPU NVIDIA 1650</string>
+				<string>5. Disable GPU NVIDIA 1650</string>
 				<key>Enabled</key>
 				<true/>
 				<key>Path</key>
@@ -48,15 +48,15 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>?11. Fixing WIFI???</string>
+				<string>6. Fixing Wi-Fi Native Combomodule after sleep</string>
 				<key>Enabled</key>
 				<true/>
 				<key>Path</key>
-				<string>SSDT-2.aml</string>
+				<string>SSDT-iASLObRdVW.aml</string>
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>?12. ??? Fixing hotkeys brightness on keyboard?</string>
+				<string>7. Fixing hotkeys brightness on keyboard?</string>
 				<key>Enabled</key>
 				<true/>
 				<key>Path</key>
@@ -64,7 +64,7 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>+20. Fixing Trackpads</string>
+				<string>8. Fixing Trackpads</string>
 				<key>Enabled</key>
 				<true/>
 				<key>Path</key>
@@ -72,7 +72,7 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>+14. Trackpad</string>
+				<string>9. Trackpad</string>
 				<key>Enabled</key>
 				<true/>
 				<key>Path</key>
@@ -80,15 +80,7 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>+15. Fixing Trackpad</string>
-				<key>Enabled</key>
-				<false/>
-				<key>Path</key>
-				<string>SSDT-GPI0.aml</string>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>+18. Instant Wake Patch</string>
+				<string>10. Instant Wake Patch</string>
 				<key>Enabled</key>
 				<true/>
 				<key>Path</key>
@@ -96,7 +88,7 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>19. Screen Freeze after waking 309842</string>
+				<string>11. Screen Freeze after waking 309842</string>
 				<key>Enabled</key>
 				<false/>
 				<key>Path</key>
@@ -104,7 +96,7 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>3. Fixing NVRAM</string>
+				<string>12. Fixing NVRAM</string>
 				<key>Enabled</key>
 				<false/>
 				<key>Path</key>
@@ -112,7 +104,7 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>6. Fixing SMBus support</string>
+				<string>13. Fixing SMBus support</string>
 				<key>Enabled</key>
 				<false/>
 				<key>Path</key>
@@ -120,7 +112,15 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>13. Command on ALT</string>
+				<string>14. Fixing Trackpad</string>
+				<key>Enabled</key>
+				<false/>
+				<key>Path</key>
+				<string>SSDT-GPI0.aml</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>15. Command on ALT</string>
 				<key>Enabled</key>
 				<false/>
 				<key>Path</key>
