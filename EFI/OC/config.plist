@@ -48,6 +48,14 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
+				<string>11. ???</string>
+				<key>Enabled</key>
+				<true/>
+				<key>Path</key>
+				<string>SSDT-2.aml</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
 				<string>?12. ??? Fixing hotkeys brightness on keyboard?</string>
 				<key>Enabled</key>
 				<true/>
@@ -88,6 +96,14 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
+				<string>19. Screen Freeze after waking 309842</string>
+				<key>Enabled</key>
+				<false/>
+				<key>Path</key>
+				<string>SSDT-HPET.aml</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
 				<string>3. Fixing NVRAM</string>
 				<key>Enabled</key>
 				<false/>
@@ -109,14 +125,6 @@
 				<false/>
 				<key>Path</key>
 				<string>SSDT-PS2.aml</string>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>19. Screen Freeze after waking 309842</string>
-				<key>Enabled</key>
-				<false/>
-				<key>Path</key>
-				<string>SSDT-HPET.aml</string>
 			</dict>
 			<dict>
 				<key>Comment</key>
@@ -149,14 +157,6 @@
 				<false/>
 				<key>Path</key>
 				<string>SSDT-MEM2.aml</string>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>11. ???</string>
-				<key>Enabled</key>
-				<false/>
-				<key>Path</key>
-				<string>SSDT-2.aml</string>
 			</dict>
 			<dict>
 				<key>Comment</key>
