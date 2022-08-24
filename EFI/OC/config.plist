@@ -72,15 +72,7 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>9. Trackpad</string>
-				<key>Enabled</key>
-				<false/>
-				<key>Path</key>
-				<string>SSDT-I2C.aml</string>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>10. Instant Wake Patch</string>
+				<string>9. Instant Wake Patch</string>
 				<key>Enabled</key>
 				<true/>
 				<key>Path</key>
@@ -88,23 +80,7 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>11. Screen Freeze after waking 309842</string>
-				<key>Enabled</key>
-				<false/>
-				<key>Path</key>
-				<string>SSDT-HPET.aml</string>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>12. Fixing NVRAM</string>
-				<key>Enabled</key>
-				<false/>
-				<key>Path</key>
-				<string>SSDT-PMC.aml</string>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>13. Fixing SMBus support</string>
+				<string>10. Fixing SMBus support</string>
 				<key>Enabled</key>
 				<false/>
 				<key>Path</key>
@@ -112,67 +88,19 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>14. Fixing Trackpad</string>
+				<string>11. Fixing Sleep - Screen Freeze after waking 309842</string>
 				<key>Enabled</key>
 				<false/>
 				<key>Path</key>
-				<string>SSDT-GPI0.aml</string>
+				<string>SSDT-HPET.aml</string>
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>15. Command on ALT</string>
-				<key>Enabled</key>
-				<false/>
-				<key>Path</key>
-				<string>SSDT-PS2.aml</string>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>7. ???</string>
-				<key>Enabled</key>
-				<false/>
-				<key>Path</key>
-				<string>SSDT-WAK.aml</string>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>8. ???</string>
+				<string>12.</string>
 				<key>Enabled</key>
 				<false/>
 				<key>Path</key>
 				<string>SSDT-FAN-MOD.aml</string>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>10. ??? - They add as virtual devices some Apple-only hardware</string>
-				<key>Enabled</key>
-				<false/>
-				<key>Path</key>
-				<string>SSDT-DMAC.aml</string>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>11. ??? - They add as virtual devices some Apple-only hardware</string>
-				<key>Enabled</key>
-				<false/>
-				<key>Path</key>
-				<string>SSDT-MEM2.aml</string>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>16. Trackpad</string>
-				<key>Enabled</key>
-				<false/>
-				<key>Path</key>
-				<string>SSDT-TPD0.aml</string>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>17. CPU?</string>
-				<key>Enabled</key>
-				<false/>
-				<key>Path</key>
-				<string>SSDT-XSPI.aml</string>
 			</dict>
 		</array>
 		<key>Delete</key>
