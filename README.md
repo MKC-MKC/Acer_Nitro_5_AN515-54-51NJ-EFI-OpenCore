@@ -15,7 +15,7 @@
 | TouchPad         | Synaptic 7DB5                                              |
 | Display          | BOEhydis NV156FHM-N48 15.6" LCD (FHD)                      |
 | BIOS Version     | V1.33                                                      |
-| OpenCore Version | 0.8.3                                                      |
+| OpenCore Version | 0.8.4                                                      |
 
 ## What's not working:
 
