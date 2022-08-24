@@ -80,27 +80,27 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>10. Fixing SMBus support</string>
+				<string>10. Fixing Sleep - Screen Freeze after waking 309842</string>
 				<key>Enabled</key>
-				<false/>
-				<key>Path</key>
-				<string>SSDT-SBUS-MCHC.aml</string>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>11. Fixing Sleep - Screen Freeze after waking 309842</string>
-				<key>Enabled</key>
-				<false/>
+				<true/>
 				<key>Path</key>
 				<string>SSDT-HPET.aml</string>
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>12.</string>
+				<string>11.</string>
+				<key>Enabled</key>
+				<true/>
+				<key>Path</key>
+				<string>SSDT-FAN-MOD.aml</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>12. Fixing SMBus support</string>
 				<key>Enabled</key>
 				<false/>
 				<key>Path</key>
-				<string>SSDT-FAN-MOD.aml</string>
+				<string>SSDT-SBUS-MCHC.aml</string>
 			</dict>
 		</array>
 		<key>Delete</key>
