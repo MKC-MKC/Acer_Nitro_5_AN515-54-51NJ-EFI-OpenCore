@@ -74,7 +74,7 @@
 				<key>Comment</key>
 				<string>9. Trackpad</string>
 				<key>Enabled</key>
-				<true/>
+				<false/>
 				<key>Path</key>
 				<string>SSDT-I2C.aml</string>
 			</dict>
