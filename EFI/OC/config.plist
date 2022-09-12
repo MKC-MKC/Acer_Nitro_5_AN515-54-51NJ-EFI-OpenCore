@@ -355,7 +355,7 @@
 				<key>hda-gfx</key>
 				<string>onboard-1</string>
 				<key>layout-id</key>
-				<data>HwAAAA==</data>
+				<integer>31</integer>
 				<key>model</key>
 				<string>Realtek High Definition Audio</string>
 			</dict>
