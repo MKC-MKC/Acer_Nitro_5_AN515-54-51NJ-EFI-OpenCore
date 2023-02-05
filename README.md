@@ -15,7 +15,7 @@
 | TouchPad         | Synaptic 7DB5                                              |
 | Display          | BOEhydis NV156FHM-N48 15.6" LCD (FHD)                      |
 | BIOS Version     | V1.33                                                      |
-| OpenCore Version | 0.8.4                                                      |
+| OpenCore Version | 0.8.8                                                      |
 
 ## What's not working:
 
@@ -48,4 +48,4 @@
 6. Boot with USB drive
 7. Follow the installer instructions
 
-macOS Ventura Beta 13.0 (22A5266r) Perfectly worked with this OC release
+macOS Ventura 13 Perfectly worked with this OC release
